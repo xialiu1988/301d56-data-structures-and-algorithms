@@ -186,7 +186,14 @@ You DO NOT need to use your solution to Challenge 9 in completing Challenge 10.
 ------------------------------------------------------------------------------------------------ */
 
 const sortSchedule = (arr) => {
+  var order={Monday:1,Tuesday:2,Wednesday:3,Thursday:4,Friday:5};
   // Solution code here...
+  return arr.sort((a,b)=>{
+    return order[a.dayOfWeek]-order[b.dayOfWeek]||
+    a.start.localeCompare(b.start)||
+    a.end.localeCompare(b.end);
+  });
+
 };
 
 /* ------------------------------------------------------------------------------------------------
