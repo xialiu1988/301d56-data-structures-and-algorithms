@@ -13,16 +13,16 @@ For example, count(5, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]]) returns 4.
 
 const count = (target, input) => {
   // Solution code here...
-  let newarr=input.filter(item=>item.includes(target));
-  let newarr2=  newarr.reduce(function(acc,item,idx){
-    for(let i=0;i<item.length;i++){
-      if(item[i]===target){
-        acc++;
+  let newarr=input.filter(item=>item.includes(target))
+    .reduce(function(acc,item,idx){
+      for(let i=0;i<item.length;i++){
+        if(item[i]===target){
+          acc++;
+        }
       }
-    }
-    return acc;
-  },0);
-  return newarr2;
+      return acc;
+    },0);
+  return newarr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -62,10 +62,9 @@ const divisibleByFiveTwoToThePower = (input) => {
   // Solution code here...
   let newarr=[];
   input.forEach(item=>{
-    let new1=item.filter(e=>(typeof e==='number' && e%5===0));
-    // let newa= new1.filter(e=>e%5===0);
-    let newb=new1.map(e=>Math.pow(2,e));
-    newarr.push(newb);
+    let new1=item.filter(e=>(typeof e==='number' && e%5===0))
+      .map(e=>Math.pow(2,e));
+    newarr.push(new1);
   });
 
   return newarr;
@@ -136,12 +135,12 @@ let starWarsData = [{
 
 let findMaleAndFemale = (data) => {
   // Solution code here...
-  let newdata=data.filter(item=>item.gender==='male'||item.gender==='female');
-  let res=newdata.reduce(function(acc,item,idx){
-    acc.push(item.name);
-    return acc;
-  },[]);
-  return res.join(' and ');
+  let newdata=data.filter(item=>item.gender==='male'||item.gender==='female')
+    .reduce(function(acc,item,idx){
+      acc.push(item.name);
+      return acc;
+    },[]);
+  return newdata.join(' and ');
 };
 
 /* ------------------------------------------------------------------------------------------------
