@@ -12,13 +12,11 @@ public class ArrayReverse {
     int[] endArr = reverseArray(startArr);
     // print out the result, nicely
     System.out.println(Arrays.toString(endArr));
-
     System.out .println("====Here is second solution====");
     //test for other solution here
     int[] startArr2 = new int[]{89, 2354, 3546, 23, 10, -923, 823, -12};
     System.out.println(Arrays.toString(startArr2));
     System.out.println(Arrays.toString(reverseArrayRecursion(startArr2)));
-
   }
 
   // the method you should write, to reverse an array
@@ -39,8 +37,6 @@ public class ArrayReverse {
     }
     return inputArray;
   }
-
-
 
 
  /* =========================== stretch goal -- recursion ================================*/
