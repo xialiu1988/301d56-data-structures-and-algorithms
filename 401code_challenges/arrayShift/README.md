@@ -6,7 +6,9 @@ Write a method called insertShiftArray which takes in an array and the value to 
 
 ##Approach & Efficiency
 
-Big O Time = O(n) // Big O Space = O(n) Both the time and the space of this algorithm is O(n).
+Big O Time = O(n) // Big O Space = O(n)
+
+Both the time and the space of this algorithm is O(n).
 
 ##Here is the whiteboard picture
 
