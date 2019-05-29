@@ -29,4 +29,11 @@ public class LibraryTest {
         assertEquals("should give you the index of the key in the array back",0,classUnderTest.binarySearch(nums,key));
     }
 
+
+    @Test public void testTwoSameNumArray() {
+        Library classUnderTest = new Library();
+        int[] nums = {4,4};
+        int key = 4;
+        assertEquals("should give you the first index of the key in the array back",0,classUnderTest.binarySearch(nums,key));
+    }
 }

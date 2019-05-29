@@ -6,7 +6,6 @@ package binarySearch;
 public class Library {
     public int binarySearch(int[] arr,int key)
     {
-
         //declare two indexes which are left and right
         int leftIndex=0;
         int rightIndedx =arr.length - 1;
