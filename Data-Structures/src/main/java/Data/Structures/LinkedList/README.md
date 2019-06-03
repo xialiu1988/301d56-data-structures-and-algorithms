@@ -16,17 +16,3 @@ Includes: takes any value as an argument and returns a boolean result depending 
 
 Print: takes in no arguments and outputs all of the current Node values in the Linked List.
 
-Append: Add the value to the end of the list
-
-
-         `Time: Big O=O(n); Space:O(n);`
-
-InsertBefore: Insert a node with new value in front of some specific node.
-
-         `  Time: Big O=O(n); Space:O(n);`
-InsertAfter: Insert a node with new value in front of some specific node.
-
-         `Time: Big O=O(n); Space:O(n);`
-Get kth value from the Linked list: Take in a integer k , return the kth Node's value from the Linked List
-
-         ` Time: Big O=O(n^2); Space:O(1);`
