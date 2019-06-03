@@ -106,4 +106,74 @@ public class LlistTest {
            assertTrue("should contain those values",test.contains(n.value));
        }
     }
+
+
+//    Can successfully add a node to the end of the linked list
+    @Test
+    public void testAddNodeToEnd(){
+        Llist list = new Llist();
+        list.insert(3);//this will be head of this linked list
+        list.append(5);
+        assertTrue("after 3 should be node holds value of 5", list.head.next.value == 5);
+    }
+
+//    Can successfully add multiple nodes to the end of a linked list
+    @Test
+    public void testAddMultipleNodeToEnd(){
+        Llist list = new Llist();
+        list.insert(3);//this will be head of this linked list
+        list.append(5);
+        list.append(43);
+        list.append(100);
+        assertTrue("after 3 should be node holds value of 5", list.head.next.value == 5);
+        assertTrue("after 5 shoudl be node holds value of 43",list.head.next.next.value == 43);
+        assertTrue("after 43 shoudl be node holds value of 100",list.head.next.next.next.value == 100);
+    }
+
+//    Can successfully insert a node before a node located i the middle of a linked list
+@Test
+    public void testInsertNodeBeforeMiddleOftheLlist(){
+        Llist list = new Llist();
+        list.insert(3);
+        list.insert(5);//this is the middle of the linked list;
+        list.insert(7);
+        list.insertBefore(5,890);
+        assertTrue("after head should be new node holds value of 890", list.head.next.value == 890);
+        assertTrue("after 890  should be the old node holds value of 5", list.head.next.next.value == 5);
+    }
+//    Can successfully insert a node before the first node of a linked list
+    @Test
+    public void testInsertNodeBeforeHeadOftheLlist(){
+        Llist list = new Llist();
+        list.insert(3);//this will be head of this linked list
+
+        list.insertBefore(3,110);
+        assertEquals("head will be 110 now", 110,list.head.value);
+        assertTrue("after 110  should be the head holds value of 3", list.head.next.value == 3);
+    }
+
+
+//    Can successfully insert after a node in the middle of the linked list
+    @Test
+    public  void insertAfterMiddleNodeOfLlist(){
+        Llist list = new Llist();
+        list.insert(4);
+        list.insert(66);//middle of the llist
+        list.insert(8);//this is the head of the llist
+        list.insertAfter(66,888);
+        assertTrue("after 8 will be 66",list.head.next.value == 66);
+        assertTrue("after 66 will be 888",list.head.next.next.value == 888);
+    }
+//    Can successfully insert a node after the last node of the linked list
+
+    @Test
+    public  void insertAfterLastNodeOfLlist(){
+        Llist list = new Llist();
+        list.insert(4);//last node of the llist
+        list.insert(8);//this is the head of the llist
+        list.insertAfter(4,888);
+        assertTrue("after 8 will be 4",list.head.next.value == 4);
+        assertEquals("after 4 should insert the value which is 888",888,list.head.next.next.value);
+    }
+
 }
