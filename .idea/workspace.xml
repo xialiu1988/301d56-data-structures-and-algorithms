@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0383d7a9-b552-49b5-87e7-23bc651457e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/401code_challenges/binarySearch/src/main/java/binarySearch/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/401code_challenges/binarySearch/src/main/java/binarySearch/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/401code_challenges/binarySearch/src/test/java/binarySearch/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/401code_challenges/binarySearch/src/test/java/binarySearch/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Structures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Structures/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,32 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/401code_challenges/binarySearch/src/main/java/binarySearch/Library.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#1255#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/401code_challenges/binarySearch/src/test/java/binarySearch/LibraryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#1016#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,79 +39,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="binarySearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="binarySearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="binarySearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="binarySearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="binarySearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="binarySearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="binarySearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="binarySearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -195,7 +96,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,9 +145,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="23" width="1405" height="805" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26412326" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26779163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -314,23 +229,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/401code_challenges/binarySearch/src/main/java/binarySearch/Library.java">
+    <entry file="file://$PROJECT_DIR$/401code_challenges/binarySearch/src/test/java/binarySearch/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#1255#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/401code_challenges/binarySearch/src/test/java/binarySearch/LibraryTest.java">
+    <entry file="file://$PROJECT_DIR$/401code_challenges/binarySearch/src/main/java/binarySearch/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#1016#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
