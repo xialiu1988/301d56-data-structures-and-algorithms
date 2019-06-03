@@ -13,6 +13,8 @@ Insert : takes any value as an argument and adds a new node with that value to t
 
 
 Includes: takes any value as an argument and returns a boolean result depending on whether that value exists as a Node’s value somewhere within the list.
+        `  Time: Big O = O(n) ; Space: O(1)`
 
 Print: takes in no arguments and outputs all of the current Node values in the Linked List.
 
+           ` Time: Big O=O(n);Space: O(n)`
