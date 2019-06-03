@@ -109,6 +109,12 @@ public class Llist {
             current = current.next;
         }
 
+      if( current.value == value){
+          Node newNode = new Node(newVal);
+          current.next = newNode;
+          return;
+      }
+
     }
 
 
