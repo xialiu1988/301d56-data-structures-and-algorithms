@@ -32,3 +32,8 @@ InsertBefore: Insert a node with new value in front of some specific node.
 InsertAfter: Insert a node with new value in front of some specific node.
            
              Time: Big O=O(n); Space:O(n);
+             
+
+Whiteboard Image
+
+![whiteboard](/Users/xaamzn/codefellows/301/301d56-data-structures-and-algorithms/Data-Structures/src/Assets/IMG-0826.JPG)
