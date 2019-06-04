@@ -36,6 +36,6 @@ InsertAfter: Insert a node with new value in front of some specific node.
 
 Whiteboard Image
 
-![whiteboard](../../../../../../Assets/IMG-0826.JPG)
+![whiteboard](../../../../../Assets/IMG-0826.JPG)
 
 
