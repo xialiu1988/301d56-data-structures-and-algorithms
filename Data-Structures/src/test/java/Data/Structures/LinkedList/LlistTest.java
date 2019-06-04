@@ -1,5 +1,6 @@
 package Data.Structures.LinkedList;
 
+import org.apache.commons.math3.stat.correlation.KendallsCorrelation;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -174,6 +175,36 @@ public class LlistTest {
         list.insertAfter(4,888);
         assertTrue("after 8 will be 4",list.head.next.value == 4);
         assertEquals("after 4 should insert the value which is 888",888,list.head.next.next.value);
+    }
+
+
+    //test egdge cases
+    @Test(expected = IllegalArgumentException.class )
+    public void testInsertBeforeEmptyLlist() {
+        Llist ll = new Llist();
+        ll.insertBefore(55, 5);
+    }
+
+    @Test(expected = NullPointerException.class )
+    public void testInsertBeforeLlistValueNotExsits() {
+        Llist ll = new Llist();
+        ll.insert(76);
+        ll.insertBefore(55, 5);
+    }
+
+
+
+    @Test(expected = IllegalArgumentException.class )
+    public void testLLInsertAfterEmptyLlist() {
+        Llist ll = new Llist();
+        ll.insertAfter(55, 5);
+    }
+
+    @Test(expected = NullPointerException.class )
+    public void testInsertAfterLlistValueNotExsits() {
+        Llist ll = new Llist();
+        ll.insert(76);
+        ll.insertBefore(55, 5);
     }
 
 }

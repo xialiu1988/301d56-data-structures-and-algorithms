@@ -69,21 +69,31 @@ public class Llist {
 
     public void insertBefore(int value, int newVal) {
 
-        current = head;
-        if (current.value == value) {
-            insert(newVal);
-            return;
-        }
-        while (current.next != null) {
-            if (current.next.value == value) {
-                Node newNode = new Node(newVal);
-                newNode.next = current.next;
-                current.next = newNode;
+        if(head!=null) {
+            current = head;
+            if (current.value == value) {
+                insert(newVal);
                 return;
             }
-            current = current.next;
-        }
+            while (current != null) {
+                if (current.next.value == value) {
+                    Node newNode = new Node(newVal);
+                    newNode.next = current.next;
+                    current.next = newNode;
+                    return;
+                }
+                else {
+                    if (current.next != null) {
+                        current = current.next;
+                    } else throw new IllegalArgumentException("Value not Exsits!");
+                }
+            }
 
+        }
+        else
+            {
+            throw new IllegalArgumentException("Value not Exsits!");
+        }
     }
 
 
@@ -91,28 +101,32 @@ public class Llist {
 
 
     public void insertAfter(int value, int newVal) {
-
-        current = head;
+if(head!=null) {
+    current = head;
+    if (current.value == value) {
+        Node nn = new Node(newVal);
+        nn.next = current.next;
+        current.next = nn;
+        return;
+    }
+    while (current.next != null) {
         if (current.value == value) {
-         Node nn = new Node(newVal);
-         nn.next = current.next;
-         current.next = nn;
+            Node newNode = new Node(newVal);
+            newNode.next = current.next;
+            current.next = newNode;
             return;
         }
-        while (current.next != null) {
-            if (current.value == value) {
-                Node newNode = new Node(newVal);
-                newNode.next = current.next;
-                current.next = newNode;
-                return;
-            }
-            current = current.next;
-        }
+        current = current.next;
+    }
 
-      if( current.value == value){
-          Node newNode = new Node(newVal);
-          current.next = newNode;
-          return;
+    if (current.value == value) {
+        Node newNode = new Node(newVal);
+        current.next = newNode;
+        return;
+    }
+}
+      else{
+          throw new IllegalArgumentException("Value not Exsits!");
       }
 
     }
