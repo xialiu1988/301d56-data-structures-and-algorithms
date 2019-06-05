@@ -59,6 +59,9 @@ public class App {
         for(Node e : m4){
             System.out.println(e.value);
         }
+        System.out.println("==============================");
+        System.out.println("==============================");
+        System.out.println(list.kthFromEnd(0));
     }
 
 }

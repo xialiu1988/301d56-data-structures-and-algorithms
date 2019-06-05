@@ -1,11 +1,11 @@
 package Data.Structures.LinkedList;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class Llist {
     public Node head;
-    public Node current;
 
     public Llist() {
 
@@ -21,7 +21,7 @@ public class Llist {
 
     //check if the value exists within the list
     public boolean includes(int value) {
-        current = head;
+      Node  current = head;
         while (current.next != null) {
             if (current.value == value) {
                 return true;
@@ -37,7 +37,7 @@ public class Llist {
     public List<Node> print() {
 
         List<Node> list = new ArrayList<>();
-        current = head;
+       Node current = head;
         while (current != null) {
             list.add(current);
             current = current.next;
@@ -55,7 +55,7 @@ public class Llist {
             head = new Node(val);
 
         } else {
-            current = head;
+          Node  current = head;
             while (current.next != null) {
                 current = current.next;
             }
@@ -70,7 +70,7 @@ public class Llist {
     public void insertBefore(int value, int newVal) {
 
         if(head!=null) {
-            current = head;
+           Node current = head;
             if (current.value == value) {
                 insert(newVal);
                 return;
@@ -102,7 +102,7 @@ public class Llist {
 
     public void insertAfter(int value, int newVal) {
 if(head!=null) {
-    current = head;
+   Node current = head;
     if (current.value == value) {
         Node nn = new Node(newVal);
         nn.next = current.next;
@@ -128,6 +128,32 @@ if(head!=null) {
       else{
           throw new IllegalArgumentException("Value not Exsits!");
       }
+
+    }
+
+
+//find the kth node from the end of the linked list
+    public int kthFromEnd(int k){
+
+        if(k<0){
+            throw new IllegalArgumentException("Not correct input number");
+        }
+        //create hashmap to hold <key,value> pair key is the index positon of the node while value is Node itself
+        HashMap<Integer,Node> hp = new HashMap<>();
+        Node current = head;
+        int i =0;
+        while(current.next!=null){
+            hp.put(i,current);
+            i++;
+            current=current.next;
+        }
+        hp.put(i,current);
+        int sizeOfHashmap=hp.size();
+        if(k>=sizeOfHashmap){
+            throw new IllegalArgumentException("Not correct input number");
+        }
+        Node res = hp.get(sizeOfHashmap-k-1);
+        return res.value;
 
     }
 
