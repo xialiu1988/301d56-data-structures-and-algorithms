@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0383d7a9-b552-49b5-87e7-23bc651457e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Data-Structures/src/Assets/IMG-0827.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data-Structures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Structures/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Structures/src/main/java/Data/Structures/LinkedList/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Structures/src/main/java/Data/Structures/LinkedList/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +14,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data-Structures/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="8" selection-start-line="8" selection-end-line="8" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data-Structures/src/main/java/Data/Structures/LinkedList/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="431">
+                <caret line="35" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="35" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,6 +53,7 @@
         <option value="$PROJECT_DIR$/401code_challenges/binarySearch/README.md" />
         <option value="$PROJECT_DIR$/401code_challenges/binarySearch/src/main/java/binarySearch/Library.java" />
         <option value="$PROJECT_DIR$/401code_challenges/binarySearch/src/test/java/binarySearch/LibraryTest.java" />
+        <option value="$PROJECT_DIR$/Data-Structures/src/main/java/Data/Structures/LinkedList/README.md" />
       </list>
     </option>
   </component>
@@ -39,7 +68,80 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Structures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -96,22 +198,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,7 +231,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="23" width="1405" height="805" extended-state="0" />
+    <frame x="35" y="23" width="1405" height="803" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26779163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -240,6 +327,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data-Structures/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data-Structures/src/main/java/Data/Structures/LinkedList/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="431">
+            <caret line="35" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="35" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
