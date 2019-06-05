@@ -34,7 +34,11 @@ InsertAfter: Insert a node with new value in front of some specific node.
              Time: Big O=O(n); Space:O(n);
              
 
-Whiteboard Image
+kthFromEnd: Get kth value from the Linked list: Take in a integer k , return the kth Node's value from the Linked List
+             `Time: Big O=O(n^2); Space:O(1);`
+             
+             
+Whiteboard Image 
 
 ![whiteboard](../../../../../Assets/IMG-0826.JPG)
 

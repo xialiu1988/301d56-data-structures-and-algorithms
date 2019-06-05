@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc1a30b-373e-440b-a184-a0c311262fa8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/Llist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/Llist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Data/Structures/LinkedList/LlistTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Data/Structures/LinkedList/LlistTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -23,11 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/LinkedList/LlistTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="253" column="86" selection-start-line="253" selection-start-column="86" selection-end-line="253" selection-end-column="86" />
+            <state relative-caret-position="3840">
+              <caret line="262" column="73" selection-start-line="262" selection-start-column="73" selection-end-line="262" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="364">
+                <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -49,10 +59,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/Llist.java" />
         <option value="$PROJECT_DIR$/src/test/java/Data/Structures/LinkedList/LlistTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/README.md" />
       </list>
     </option>
   </component>
@@ -130,7 +141,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559707951510" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559708150729" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -263,18 +274,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LlistTest_testInsertBeforeLlistValueNotExsits - 2019.06.04 at 09h 54m 56s.xml">
-      <configuration name="LlistTest.testInsertBeforeLlistValueNotExsits" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LlistTest_testInsertBeforeLlistValueNotExsits - 2019.06.04 at 09h 55m 24s.xml">
-      <configuration name="LlistTest.testInsertBeforeLlistValueNotExsits" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LlistTest_testInsertBeforeLlistValueNotExsits - 2019.06.04 at 09h 55m 37s.xml">
-      <configuration name="LlistTest.testInsertBeforeLlistValueNotExsits" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LlistTest_kthFromEnd - 2019.06.04 at 21h 04m 19s.xml">
-      <configuration name="LlistTest.kthFromEnd" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LlistTest_kthFromEnd - 2019.06.04 at 21h 04m 38s.xml">
       <configuration name="LlistTest.kthFromEnd" configurationId="JUnit" />
     </history-entry>
@@ -293,12 +292,24 @@
     <history-entry file="LlistTest_CanTestkthFromEndWhenLinkedListHasOneNodeOnly - 2019.06.04 at 21h 07m 53s.xml">
       <configuration name="LlistTest.CanTestkthFromEndWhenLinkedListHasOneNodeOnly" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LlistTest_CanTestkthFromEndWhenLinkedListHasOneNodeOnly - 2019.06.04 at 21h 09m 06s.xml">
+      <configuration name="LlistTest.CanTestkthFromEndWhenLinkedListHasOneNodeOnly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LlistTest_CanTestkthFromEndKisIntheMiddle - 2019.06.04 at 21h 10m 21s.xml">
+      <configuration name="LlistTest.CanTestkthFromEndKisIntheMiddle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LlistTest_CanTestkthFromEndKPointsToTheHead - 2019.06.04 at 21h 11m 26s.xml">
+      <configuration name="LlistTest.CanTestkthFromEndKPointsToTheHead" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LlistTest - 2019.06.04 at 21h 11m 47s.xml">
+      <configuration name="LlistTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="44" width="1356" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25722983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25722983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -307,7 +318,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3164557" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3164557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,16 +340,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="551">
-            <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -375,10 +376,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="209" column="24" selection-start-line="209" selection-start-column="24" selection-end-line="209" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/LinkedList/LlistTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="253" column="86" selection-start-line="253" selection-start-column="86" selection-end-line="253" selection-end-column="86" />
+        <state relative-caret-position="3840">
+          <caret line="262" column="73" selection-start-line="262" selection-start-column="73" selection-end-line="262" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="364">
+            <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
