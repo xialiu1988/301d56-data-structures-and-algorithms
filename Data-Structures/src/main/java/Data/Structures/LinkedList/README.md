@@ -44,3 +44,7 @@ Whiteboard Image
 ![whiteboard](../../../../../Assets/IMG-0826.JPG)
 
 
+Whiteboard Image for Kthfromend
+
+![whiteboard](../../../../../Assets/IMG-0827.JPG)
+
