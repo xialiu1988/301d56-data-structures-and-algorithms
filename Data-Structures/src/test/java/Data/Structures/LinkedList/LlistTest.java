@@ -206,5 +206,63 @@ public class LlistTest {
         ll.insert(76);
         ll.insertBefore(55, 5);
     }
+   // Where k is greater than the length of the linked list
+    @Test(expected = IllegalArgumentException.class)
+    public void CanTestkthFromEndWhileKOutOfBoundary() {
+        Llist ll = new Llist();
+        ll.insert(6);
+        ll.insert(3);
+        ll.kthFromEnd(5);
+    }
 
+
+   // Where k and the length of the list are the same
+   @Test(expected = IllegalArgumentException.class)
+   public void CanTestkthFromEndWhileKistheLengthOfLinkedList() {
+       Llist ll = new Llist();
+       ll.insert(6);
+       ll.insert(3);
+       ll.kthFromEnd(2);
+   }
+
+   //Where k is not a positive integer
+   @Test(expected = IllegalArgumentException.class)
+   public void CanTestkthFromEndWhileKisNegtiveNumber() {
+       Llist ll = new Llist();
+       ll.insert(6);
+       ll.insert(3);
+       ll.kthFromEnd(-2);
+   }
+   //Where the linked list is of a size 1
+   @Test
+   public void CanTestkthFromEndWhenLinkedListHasOneNodeOnly() {
+       Llist ll = new Llist();
+       ll.insert(6);
+       int s =ll.kthFromEnd(0);
+       assertEquals("should return the value of the only node in the linked list",6,s);
+
+   }
+
+   //Happy Path” where k is not at the end, but somewhere in the middle of the linked list
+   @Test
+   public void CanTestkthFromEndKisIntheMiddle() {
+       Llist ll = new Llist();
+       ll.insert(6);
+       ll.insert(77);
+       ll.insert(36);
+       int s =ll.kthFromEnd(1);
+       assertEquals("should return the value of the middle node in the linked list",77,s);
+
+   }
+//test head
+    @Test
+    public void CanTestkthFromEndKPointsToTheHead() {
+        Llist ll = new Llist();
+        ll.insert(6);
+        ll.insert(77);
+        ll.insert(36);//last insert number is the head of the linked list
+        int s =ll.kthFromEnd(2);
+        assertEquals("should return the value of the head node in the linked list",36,s);
+
+    }
 }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc1a30b-373e-440b-a184-a0c311262fa8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/Llist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/Llist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Data/Structures/LinkedList/LlistTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Data/Structures/LinkedList/LlistTest.java" afterDir="false" />
     </list>
@@ -25,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/LinkedList/LlistTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="190" column="22" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
+            <state relative-caret-position="329">
+              <caret line="253" column="86" selection-start-line="253" selection-start-column="86" selection-end-line="253" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -34,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/Llist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="87" column="77" selection-start-line="87" selection-start-column="77" selection-end-line="87" selection-end-column="77" />
+            <state relative-caret-position="287">
+              <caret line="151" column="14" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -49,14 +50,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/README.md" />
-        <option value="$PROJECT_DIR$/src/test/java/Data/Structures/LinkedList/LlistTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/Llist.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Data/Structures/LinkedList/LlistTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="78" />
-    <option name="y" value="30" />
+    <option name="x" value="44" />
+    <option name="y" value="44" />
     <option name="width" value="1356" />
     <option name="height" value="803" />
   </component>
@@ -65,6 +67,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -124,14 +127,21 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559667400227" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559707951510" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Data.Structures.LinkedList" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Assets" />
       <recent name="$PROJECT_DIR$/Assets" />
@@ -165,7 +175,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LlistTest.testInsertAfterLlistValueNotExsits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LlistTest.CanTestkthFromEndKPointsToTheHead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures.test" />
       <extension name="coverage">
         <pattern>
@@ -175,13 +185,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Data.Structures.LinkedList" />
       <option name="MAIN_CLASS_NAME" value="Data.Structures.LinkedList.LlistTest" />
-      <option name="METHOD_NAME" value="testInsertAfterLlistValueNotExsits" />
+      <option name="METHOD_NAME" value="CanTestkthFromEndKPointsToTheHead" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LlistTest.testInsertBeforeLlistValueNotExsits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LlistTest.CanTestkthFromEndKisIntheMiddle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures.test" />
       <extension name="coverage">
         <pattern>
@@ -191,13 +201,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Data.Structures.LinkedList" />
       <option name="MAIN_CLASS_NAME" value="Data.Structures.LinkedList.LlistTest" />
-      <option name="METHOD_NAME" value="testInsertBeforeLlistValueNotExsits" />
+      <option name="METHOD_NAME" value="CanTestkthFromEndKisIntheMiddle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LlistTest.testLLInsertAfterEmptyLlist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LlistTest.CanTestkthFromEndWhenLinkedListHasOneNodeOnly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures.test" />
       <extension name="coverage">
         <pattern>
@@ -207,13 +217,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Data.Structures.LinkedList" />
       <option name="MAIN_CLASS_NAME" value="Data.Structures.LinkedList.LlistTest" />
-      <option name="METHOD_NAME" value="testLLInsertAfterEmptyLlist" />
+      <option name="METHOD_NAME" value="CanTestkthFromEndWhenLinkedListHasOneNodeOnly" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LlistTest.testLLInsertBeforeEmptyLLError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LlistTest.CanTestkthFromEndWhileKisNegtiveNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures.test" />
       <extension name="coverage">
         <pattern>
@@ -223,7 +233,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Data.Structures.LinkedList" />
       <option name="MAIN_CLASS_NAME" value="Data.Structures.LinkedList.LlistTest" />
-      <option name="METHOD_NAME" value="testLLInsertBeforeEmptyLLError" />
+      <option name="METHOD_NAME" value="CanTestkthFromEndWhileKisNegtiveNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -232,10 +242,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LlistTest" />
-        <item itemvalue="JUnit.LlistTest.testInsertAfterLlistValueNotExsits" />
-        <item itemvalue="JUnit.LlistTest.testInsertBeforeLlistValueNotExsits" />
-        <item itemvalue="JUnit.LlistTest.testLLInsertAfterEmptyLlist" />
-        <item itemvalue="JUnit.LlistTest.testLLInsertBeforeEmptyLLError" />
+        <item itemvalue="JUnit.LlistTest.CanTestkthFromEndKPointsToTheHead" />
+        <item itemvalue="JUnit.LlistTest.CanTestkthFromEndKisIntheMiddle" />
+        <item itemvalue="JUnit.LlistTest.CanTestkthFromEndWhenLinkedListHasOneNodeOnly" />
+        <item itemvalue="JUnit.LlistTest.CanTestkthFromEndWhileKisNegtiveNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -253,27 +263,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LlistTest_testLLInsertBeforeEmptyLLError - 2019.06.04 at 09h 42m 44s.xml">
-      <configuration name="LlistTest.testLLInsertBeforeEmptyLLError" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LlistTest_testLLInsertBeforeEmptyLLError - 2019.06.04 at 09h 47m 37s.xml">
-      <configuration name="LlistTest.testLLInsertBeforeEmptyLLError" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LlistTest_testLLInsertBeforeEmptyLLError - 2019.06.04 at 09h 48m 25s.xml">
-      <configuration name="LlistTest.testLLInsertBeforeEmptyLLError" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LlistTest_testLLInsertAfterEmptyLlist - 2019.06.04 at 09h 49m 47s.xml">
-      <configuration name="LlistTest.testLLInsertAfterEmptyLlist" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LlistTest_testInsertBeforeLlistValueNotExsits - 2019.06.04 at 09h 50m 20s.xml">
-      <configuration name="LlistTest.testInsertBeforeLlistValueNotExsits" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LlistTest_testInsertBeforeLlistValueNotExsits - 2019.06.04 at 09h 51m 41s.xml">
-      <configuration name="LlistTest.testInsertBeforeLlistValueNotExsits" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LlistTest_testInsertBeforeLlistValueNotExsits - 2019.06.04 at 09h 52m 38s.xml">
-      <configuration name="LlistTest.testInsertBeforeLlistValueNotExsits" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LlistTest_testInsertBeforeLlistValueNotExsits - 2019.06.04 at 09h 54m 56s.xml">
       <configuration name="LlistTest.testInsertBeforeLlistValueNotExsits" configurationId="JUnit" />
     </history-entry>
@@ -283,12 +272,33 @@
     <history-entry file="LlistTest_testInsertBeforeLlistValueNotExsits - 2019.06.04 at 09h 55m 37s.xml">
       <configuration name="LlistTest.testInsertBeforeLlistValueNotExsits" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LlistTest_kthFromEnd - 2019.06.04 at 21h 04m 19s.xml">
+      <configuration name="LlistTest.kthFromEnd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LlistTest_kthFromEnd - 2019.06.04 at 21h 04m 38s.xml">
+      <configuration name="LlistTest.kthFromEnd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LlistTest_CanTestkthFromEndWhileKistheLengthOfLinkedList - 2019.06.04 at 21h 06m 23s.xml">
+      <configuration name="LlistTest.CanTestkthFromEndWhileKistheLengthOfLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LlistTest_CanTestkthFromEndWhileKOutOfBoundary - 2019.06.04 at 21h 06m 26s.xml">
+      <configuration name="LlistTest.CanTestkthFromEndWhileKOutOfBoundary" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LlistTest - 2019.06.04 at 21h 06m 33s.xml">
+      <configuration name="LlistTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LlistTest_CanTestkthFromEndWhileKisNegtiveNumber - 2019.06.04 at 21h 07m 07s.xml">
+      <configuration name="LlistTest.CanTestkthFromEndWhileKisNegtiveNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LlistTest_CanTestkthFromEndWhenLinkedListHasOneNodeOnly - 2019.06.04 at 21h 07m 53s.xml">
+      <configuration name="LlistTest.CanTestkthFromEndWhenLinkedListHasOneNodeOnly" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="78" y="30" width="1356" height="803" extended-state="0" />
+    <frame x="44" y="44" width="1356" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25342464" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25722983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -297,7 +307,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31786215" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3164557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -319,13 +329,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-534">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -351,17 +354,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-121">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/Llist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="87" column="77" selection-start-line="87" selection-start-column="77" selection-end-line="87" selection-end-column="77" />
+        <state relative-caret-position="287">
+          <caret line="151" column="14" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/LinkedList/LlistTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="190" column="22" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
+        <state relative-caret-position="329">
+          <caret line="253" column="86" selection-start-line="253" selection-start-column="86" selection-end-line="253" selection-end-column="86" />
         </state>
       </provider>
     </entry>
