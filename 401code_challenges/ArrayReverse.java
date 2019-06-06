@@ -1,62 +1,231 @@
 import java.util.Arrays;
 
-public class ArrayReverse {
-  public static void main (String[] args) {
-    // create the array to test your code on later
-    int[] startArr = new int[] {1,2,3,4,5};
-    //  int[] startArr = new int[] {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199};
-    System.out .println("====Here is first solution====");
-    // print it out, nicely
-    System.out.println(Arrays.toString(startArr));
-    // call your reverseArray method and save the result in a variable
-    int[] endArr = reverseArray(startArr);
-    // print out the result, nicely
-    System.out.println(Arrays.toString(endArr));
-    System.out .println("====Here is second solution====");
-    //test for other solution here
-    int[] startArr2 = new int[]{89, 2354, 3546, 23, 10, -923, 823, -12};
-    System.out.println(Arrays.toString(startArr2));
-    System.out.println(Arrays.toString(reverseArrayRecursion(startArr2)));
-  }
+public class ArrayReverse { 
+  public class Node {
+    public int value;
+    public Node next;
 
-  // the method you should write, to reverse an array
-  public static int[] reverseArray(int[] inputArray) { 
-//   your code goes here!
-    int start = 0;
-    int end = inputArray.length-1;
-    int mid=(start+end)/2;
-
-    while(start<=mid){
-    //swap the start point value and end point value
-    int temp ;
-    temp = inputArray[start];
-    inputArray[start] = inputArray[end];
-    inputArray[end] = temp;
-    start ++;
-    end --;
+    //constructor
+    public Node(int val){
+        this.value=val;
     }
-    return inputArray;
+}
+public class Llist {
+  public Node head;
+
+  public  Llist(){
+      head = null;
   }
 
 
- /* =========================== stretch goal -- recursion ================================*/
+  //Insert a value as a node
+  public void insert(int value) {
+      Node insertNode = new Node(value);
+      insertNode.next = head;
+      head = insertNode;
+  }
 
- public static int[] reverseArrayRecursion(int[] inputArray) { 
-    int[] newarr =  helpler(inputArray, 0, inputArray.length-1);
-     // for now, to make sure that it compiles, here is a answer
-     return newarr;
-   }
-
-
-  public static int[] helpler(int[] inputArray,int start, int end){
-      if(start<=((inputArray.length-1)/2)){
-    int temp ;
-    temp = inputArray[start];
-    inputArray[start] = inputArray[end];
-    inputArray[end] = temp;
-    return helpler(inputArray, (start+1),(end-1));
+  //check if the value exists within the list
+  public boolean includes(int value) {
+      Node  current = head;
+      while (current.next != null) {
+          if (current.value == value) {
+              return true;
+          }
+          current = current.next;
       }
-      return inputArray;
+      if (current.value == value) return true;
+      else return false;
   }
+
+
+  //return the current node
+  public List<Node> print() {
+
+      List<Node> list = new ArrayList<>();
+      Node current = head;
+      while (current != null) {
+          list.add(current);
+          current = current.next;
+      }
+
+      return list;
+  }
+
+
+
+
+
+  //.append(value) which adds a new node with the given value to the end of the list
+
+  public void append(int val) {
+      //if there is empty linked list
+      if (head == null) {
+          head = new Node(val);
+
+      } else {
+          Node  current = head;
+          while (current.next != null) {
+              current = current.next;
+          }
+          Node newNode = new Node(val);
+          current.next = newNode;
+      }
+  }
+
+  // .insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
+
+  public void insertBefore(int value, int newVal) {
+
+      if(head!=null) {
+          Node current = head;
+          if (current.value == value) {
+              insert(newVal);
+              return;
+          }
+          while (current != null) {
+              if (current.next.value == value) {
+                  Node newNode = new Node(newVal);
+                  newNode.next = current.next;
+                  current.next = newNode;
+                  return;
+              }
+              else {
+                  if (current.next != null) {
+                      current = current.next;
+                  } else throw new IllegalArgumentException("Value not Exsits!");
+              }
+          }
+
+      }
+      else
+      {
+          throw new IllegalArgumentException("Value not Exsits!");
+      }
+  }
+
+
+  //.insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value nodepublic void insertAfter(int value, int newVal)
+
+
+  public void insertAfter(int value, int newVal) {
+      if(head!=null) {
+          Node current = head;
+          if (current.value == value) {
+              Node nn = new Node(newVal);
+              nn.next = current.next;
+              current.next = nn;
+              return;
+          }
+          while (current.next != null) {
+              if (current.value == value) {
+                  Node newNode = new Node(newVal);
+                  newNode.next = current.next;
+                  current.next = newNode;
+                  return;
+              }
+              current = current.next;
+          }
+
+          if (current.value == value) {
+              Node newNode = new Node(newVal);
+              current.next = newNode;
+              return;
+          }
+      }
+      else{
+          throw new IllegalArgumentException("Value not Exsits!");
+      }
+
+  }
+
+
+  //find the kth node from the end of the linked list
+  public int kthFromEnd(int k){
+
+      if(k<0){
+          throw new IllegalArgumentException("Not correct input number");
+      }
+      //create hashmap to hold <key,value> pair key is the index positon of the node while value is Node itself
+      HashMap<Integer,Node> hp = new HashMap<>();
+      Node current = head;
+      int i =0;
+      while(current.next!=null){
+          hp.put(i,current);
+          i++;
+          current=current.next;
+      }
+      hp.put(i,current);
+      int sizeOfHashmap=hp.size();
+      if(k>=sizeOfHashmap){
+          throw new IllegalArgumentException("Not correct input number");
+      }
+      Node res = hp.get(sizeOfHashmap-k-1);
+      return res.value;
+
+  }
+
+
+
+}
+  public static void main(String[] args){
+
+    Llist list1= new Llist();
+    list1.insert(5);
+    list1.insert(8);
+    list1.insert(1);
+
+    Llist list2= new Llist();
+    list2.insert(2);
+    list2.insert(3);
+//        list2.insert(18);
+    Llist res = mergeLists(list1,list2);
+    List<Node> print = res.print();
+    for(Node n :print){
+        System.out.println(n.value);
+    }
+}
+
+public static Llist mergeLists(Llist one, Llist two){
+  Llist newlist = new Llist();
+  Node dummyHead = new Node(0);
+  Node curNew = dummyHead;
+  if((one.head == null)&&(two.head==null)) return newlist;
+
+  if((one.head == null) &&(two.head!=null)) return  two;
+
+  if((one.head != null) &&(two.head==null)) return  one;
+
+  Node curOne = one.head;
+  Node curTwo = two.head;
+
+  while(curOne.next!=null){
+      curNew.next = curOne;
+      //curOne move on to next
+      curOne = curOne.next;
+      //curNew move on to next
+      curNew = curNew.next;
+      curNew.next=curTwo;
+      if(curTwo.next!=null) {
+          curTwo = curTwo.next;
+      }
+  }
+ curNew.next = curOne;
+  if(curTwo!=null) {
+      curNew = curNew.next;
+      while (curTwo.next != null) {
+
+          curNew.next = curTwo;
+          curNew=curNew.next;
+          curTwo=curTwo.next;
+      }
+      curNew.next=curTwo;
+  }
+  return newlist;
+}
+
+
+
+   
     
 }
