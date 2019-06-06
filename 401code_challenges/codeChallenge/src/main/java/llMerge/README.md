@@ -13,4 +13,4 @@ space<-Big o=o(1); Time<-Big o=o(n);
 
 `whiteboard image`
 
-
+![mergelinkedlists](../../../../../Assets/white.jpg)
