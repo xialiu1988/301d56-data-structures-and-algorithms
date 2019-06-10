@@ -7,3 +7,5 @@
 2. [Binary Search](codeChallenge/src/main/java/binarySearch)
 
 3. [Merge Linked List](codeChallenge/src/main/java/llMerge)
+
+4. [Stacks with Queues](codeChallenge/src/main/java/QueueWithStacks)
