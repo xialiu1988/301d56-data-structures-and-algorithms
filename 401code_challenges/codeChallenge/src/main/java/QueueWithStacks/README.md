@@ -28,4 +28,4 @@ Dequeue() :      BigO:
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![stackswithqueues](../../../../../Assets/swq.jpg)
+![stackswithqueues](../../../../../Assets/swq.JPG)
