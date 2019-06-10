@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dc1a30b-373e-440b-a184-a0c311262fa8" name="Default Changelist" comment="" />
+    <list default="true" id="4dc1a30b-373e-440b-a184-a0c311262fa8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/StacksAndQueues/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,7 +22,44 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StacksAndQueues/StackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1305">
+              <caret line="89" column="15" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StacksAndQueues/QueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="72" lean-forward="true" selection-start-line="66" selection-start-column="3" selection-end-line="78" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -31,13 +72,19 @@
         <option value="$PROJECT_DIR$/src/test/java/Data/Structures/LinkedList/LlistTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/StacksAndQueues/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StacksAndQueues/Stack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StacksAndQueues/Queue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StacksAndQueues/QueueTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StacksAndQueues/StackTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="44" />
-    <option name="y" value="44" />
-    <option name="width" value="1356" />
+    <option name="x" value="12" />
+    <option name="y" value="61" />
+    <option name="width" value="1405" />
     <option name="height" value="803" />
   </component>
   <component name="ProjectView">
@@ -45,8 +92,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,14 +121,6 @@
               <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data-Structures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data-Structures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -99,22 +136,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="StacksAndQueues" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559708311532" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560186053429" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="StacksAndQueues" />
       <recent name="Data.Structures.LinkedList" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -137,81 +177,80 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LlistTest">
-    <configuration name="LlistTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StackTest">
+    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Data.Structures.LinkedList.*" />
+          <option name="PATTERN" value="StacksAndQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Data.Structures.LinkedList" />
-      <option name="MAIN_CLASS_NAME" value="Data.Structures.LinkedList.LlistTest" />
+      <option name="PACKAGE_NAME" value="StacksAndQueues" />
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.QueueTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LlistTest.CanTestkthFromEndKPointsToTheHead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueTest.dequeueFromEmptyQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Data.Structures.LinkedList.*" />
+          <option name="PATTERN" value="StacksAndQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Data.Structures.LinkedList" />
-      <option name="MAIN_CLASS_NAME" value="Data.Structures.LinkedList.LlistTest" />
-      <option name="METHOD_NAME" value="CanTestkthFromEndKPointsToTheHead" />
+      <option name="PACKAGE_NAME" value="StacksAndQueues" />
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.QueueTest" />
+      <option name="METHOD_NAME" value="dequeueFromEmptyQueue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LlistTest.CanTestkthFromEndKisIntheMiddle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Data.Structures.LinkedList.*" />
+          <option name="PATTERN" value="StacksAndQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Data.Structures.LinkedList" />
-      <option name="MAIN_CLASS_NAME" value="Data.Structures.LinkedList.LlistTest" />
-      <option name="METHOD_NAME" value="CanTestkthFromEndKisIntheMiddle" />
+      <option name="PACKAGE_NAME" value="StacksAndQueues" />
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.StackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTest.peekFromEmptyStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structures.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StacksAndQueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StacksAndQueues" />
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.StackTest" />
+      <option name="METHOD_NAME" value="peekFromEmptyStack" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LlistTest.CanTestkthFromEndWhenLinkedListHasOneNodeOnly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackTest.popFromEmptyStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Data.Structures.LinkedList.*" />
+          <option name="PATTERN" value="StacksAndQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Data.Structures.LinkedList" />
-      <option name="MAIN_CLASS_NAME" value="Data.Structures.LinkedList.LlistTest" />
-      <option name="METHOD_NAME" value="CanTestkthFromEndWhenLinkedListHasOneNodeOnly" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LlistTest.CanTestkthFromEndWhileKisNegtiveNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data-Structures.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Data.Structures.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Data.Structures.LinkedList" />
-      <option name="MAIN_CLASS_NAME" value="Data.Structures.LinkedList.LlistTest" />
-      <option name="METHOD_NAME" value="CanTestkthFromEndWhileKisNegtiveNumber" />
+      <option name="PACKAGE_NAME" value="StacksAndQueues" />
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.StackTest" />
+      <option name="METHOD_NAME" value="popFromEmptyStack" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -219,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LlistTest" />
-        <item itemvalue="JUnit.LlistTest.CanTestkthFromEndKPointsToTheHead" />
-        <item itemvalue="JUnit.LlistTest.CanTestkthFromEndKisIntheMiddle" />
-        <item itemvalue="JUnit.LlistTest.CanTestkthFromEndWhenLinkedListHasOneNodeOnly" />
-        <item itemvalue="JUnit.LlistTest.CanTestkthFromEndWhileKisNegtiveNumber" />
+        <item itemvalue="JUnit.StackTest" />
+        <item itemvalue="JUnit.StackTest.peekFromEmptyStack" />
+        <item itemvalue="JUnit.StackTest.popFromEmptyStack" />
+        <item itemvalue="JUnit.QueueTest" />
+        <item itemvalue="JUnit.QueueTest.dequeueFromEmptyQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -241,41 +280,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LlistTest_kthFromEnd - 2019.06.04 at 21h 04m 38s.xml">
-      <configuration name="LlistTest.kthFromEnd" configurationId="JUnit" />
+    <history-entry file="QueueTest_canDequeueFromAQueue - 2019.06.10 at 09h 50m 45s.xml">
+      <configuration name="QueueTest.canDequeueFromAQueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LlistTest_CanTestkthFromEndWhileKistheLengthOfLinkedList - 2019.06.04 at 21h 06m 23s.xml">
-      <configuration name="LlistTest.CanTestkthFromEndWhileKistheLengthOfLinkedList" configurationId="JUnit" />
+    <history-entry file="QueueTest_canPeekAQueue - 2019.06.10 at 09h 51m 35s.xml">
+      <configuration name="QueueTest.canPeekAQueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LlistTest_CanTestkthFromEndWhileKOutOfBoundary - 2019.06.04 at 21h 06m 26s.xml">
-      <configuration name="LlistTest.CanTestkthFromEndWhileKOutOfBoundary" configurationId="JUnit" />
+    <history-entry file="QueueTest_canDequeueUntilEmptyQueue - 2019.06.10 at 09h 53m 01s.xml">
+      <configuration name="QueueTest.canDequeueUntilEmptyQueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LlistTest - 2019.06.04 at 21h 06m 33s.xml">
-      <configuration name="LlistTest" configurationId="JUnit" />
+    <history-entry file="QueueTest_instantiateEmptyQueue - 2019.06.10 at 09h 53m 46s.xml">
+      <configuration name="QueueTest.instantiateEmptyQueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LlistTest_CanTestkthFromEndWhileKisNegtiveNumber - 2019.06.04 at 21h 07m 07s.xml">
-      <configuration name="LlistTest.CanTestkthFromEndWhileKisNegtiveNumber" configurationId="JUnit" />
+    <history-entry file="QueueTest_peekFromEmptyQueue - 2019.06.10 at 09h 54m 54s.xml">
+      <configuration name="QueueTest.peekFromEmptyQueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LlistTest_CanTestkthFromEndWhenLinkedListHasOneNodeOnly - 2019.06.04 at 21h 07m 53s.xml">
-      <configuration name="LlistTest.CanTestkthFromEndWhenLinkedListHasOneNodeOnly" configurationId="JUnit" />
+    <history-entry file="QueueTest_dequeueFromEmptyQueue - 2019.06.10 at 09h 55m 16s.xml">
+      <configuration name="QueueTest.dequeueFromEmptyQueue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LlistTest_CanTestkthFromEndWhenLinkedListHasOneNodeOnly - 2019.06.04 at 21h 09m 06s.xml">
-      <configuration name="LlistTest.CanTestkthFromEndWhenLinkedListHasOneNodeOnly" configurationId="JUnit" />
+    <history-entry file="QueueTest - 2019.06.10 at 09h 55m 21s.xml">
+      <configuration name="QueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LlistTest_CanTestkthFromEndKisIntheMiddle - 2019.06.04 at 21h 10m 21s.xml">
-      <configuration name="LlistTest.CanTestkthFromEndKisIntheMiddle" configurationId="JUnit" />
+    <history-entry file="StackTest_popFromEmptyStack - 2019.06.10 at 09h 56m 29s.xml">
+      <configuration name="StackTest.popFromEmptyStack" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LlistTest_CanTestkthFromEndKPointsToTheHead - 2019.06.04 at 21h 11m 26s.xml">
-      <configuration name="LlistTest.CanTestkthFromEndKPointsToTheHead" configurationId="JUnit" />
+    <history-entry file="StackTest_peekFromEmptyStack - 2019.06.10 at 09h 56m 32s.xml">
+      <configuration name="StackTest.peekFromEmptyStack" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LlistTest - 2019.06.04 at 21h 11m 47s.xml">
-      <configuration name="LlistTest" configurationId="JUnit" />
+    <history-entry file="StackTest - 2019.06.10 at 09h 56m 36s.xml">
+      <configuration name="StackTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="44" width="1356" height="803" extended-state="0" />
+    <frame x="-26" y="220" width="1405" height="803" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25722983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2509171" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -284,7 +324,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3164557" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3164557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -304,16 +344,38 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2509171" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3164557" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32911393" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/statements/ExpectException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -363,6 +425,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
           <caret line="135" column="25" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StacksAndQueues/QueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="72" lean-forward="true" selection-start-line="66" selection-start-column="3" selection-end-line="78" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StacksAndQueues/StackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="89" column="15" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>

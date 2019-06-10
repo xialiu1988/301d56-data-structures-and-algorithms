@@ -10,3 +10,11 @@
   //for test part
   
  [Linked-List test](src/test/java/Data/Structures/LinkedList)
+ 
+ 2.//for code part
+ 
+ [Stacks And Queues](src/main/java/StacksAndQueues)
+ 
+ //for test part
+ 
+ [Stacks And Queues](src/test/java/StacksAndQueues)
