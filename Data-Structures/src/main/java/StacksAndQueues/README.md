@@ -1,10 +1,13 @@
-#Stack and Queues
+# Stack and Queues
+
+
 Stack: A stack is a container of objects that are inserted and removed according to the last-in first-out (LIFO) principle.
 
 Queue: A Queue is very similar to the Stack data structure with one major difference. Rather than follow a LIFO behavior, a Queue data structure goes by FIFO, which stands for First-In-First-Out.
 
 
-##Challenges
+**Challenges**
+
 
 **Stack part**
 
@@ -32,9 +35,11 @@ Define a method called peek that does not take an argument and returns the value
 
 
 **Approach & Efficiency**
+
 stack: pop() T<-O(1) s<-O(H) push() T<-O(1) s<-O(1) peek() T<-O(1) s<-O(1)
 
 queue: enqueue() T<-O(1) s<-O(1) dequeue() T<-O(1) s<-O(H) peek() T<-O(1) s<-O(1)
+
 
 **API**
 
