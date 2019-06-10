@@ -4,9 +4,11 @@ public class PseudoQueue {
    public  Node front;
    public  Node rear;
    public  Stack stack;
+   public  Stack holder;
    //constructor for empty pseudoqueue
     public PseudoQueue(){
         stack = new Stack();
+        holder = new Stack();
     }
 
     //instantiate with a value
@@ -19,24 +21,21 @@ public class PseudoQueue {
 
     //Enqueue a value to the pseduQueue
     public void enqueue(int value){
-     if(this.front==null){
-       this.stack.push(value);
-       this.front =this.stack.Top;
-       this.rear = this.stack.Top;
+     if(front==null){
+       stack.push(value);
+       front =stack.Top;
+       rear = stack.Top;
    }
      else{
-
-         Stack holder = new Stack();
-
-        while(this.stack.Top!=null){
-            holder.push(this.stack.pop());
+        while(stack.Top!=null){
+            holder.push(stack.pop());
         }
 
-       this.stack.push(value);
-       this.rear = this.stack.Top;
+       stack.push(value);
+       rear = stack.Top;
 
      while(holder.Top!=null){
-         this.stack.push(holder.pop());
+         stack.push(holder.pop());
      }
 
      }
@@ -46,10 +45,10 @@ public class PseudoQueue {
 
     //dequeue from pseudoQueue
     public int dequeue(){
-        if(this.front==null){
+        if(front==null){
             throw new NullPointerException("This is an empty pseudoQueue");
         }
 
-       return this.stack.pop();
+       return stack.pop();
     }
 }
