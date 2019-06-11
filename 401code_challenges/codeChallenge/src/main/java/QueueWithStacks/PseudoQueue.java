@@ -21,21 +21,21 @@ public class PseudoQueue {
 
     //Enqueue a value to the pseduQueue
     public void enqueue(int value){
-     if(front==null){
-       stack.push(value);
-       front =stack.Top;
-       rear = stack.Top;
+     if(this.front==null){
+      this.stack.push(value);
+       this.front =this.stack.Top;
+       this.rear = this.stack.Top;
    }
      else{
-        while(stack.Top!=null){
-            holder.push(stack.pop());
+        while(this.stack.Top!=null){
+            this.holder.push(this.stack.pop());
         }
 
-       stack.push(value);
-       rear = stack.Top;
+       this.stack.push(value);
+       this.rear = this.stack.Top;
 
-     while(holder.Top!=null){
-         stack.push(holder.pop());
+     while(this.holder.Top!=null){
+         this.stack.push(this.holder.pop());
      }
 
      }
@@ -45,10 +45,10 @@ public class PseudoQueue {
 
     //dequeue from pseudoQueue
     public int dequeue(){
-        if(front==null){
+        if(this.front==null){
             throw new NullPointerException("This is an empty pseudoQueue");
         }
 
-       return stack.pop();
+       return this.stack.pop();
     }
 }
