@@ -2,10 +2,10 @@ package StacksAndQueues;
 
 public class Stack {
 
-    public Node Top;
+    public Node top;
 
     public Stack(Node node){
-        this.Top = node;
+        this.top = node;
     }
 
     //empty stack
@@ -15,28 +15,28 @@ public class Stack {
 
 
     //push to a stack
-    public void Push(int value){
+    public void push(int value){
         Node node = new Node(value);
-        node.next = this.Top;
-        this.Top = node;
+        node.next = this.top;
+        this.top = node;
     }
 
     //pop a node from the stack
-    public  int Pop(){
-        if(this.Top == null){
+    public  int pop(){
+        if(this.top == null){
             throw new NullPointerException("This is an empty stack");
         }
-        Node temp = this.Top;
-        this.Top=this.Top.next;
+        Node temp = this.top;
+        this.top =this.top.next;
         temp.next=null;
         return temp.value;
     }
 
     //peek the top node
-    public  int Peek(){
-        if(this.Top == null){
+    public  int peek(){
+        if(this.top == null){
             throw new NullPointerException("This is an empty stack");
         }
-        return this.Top.value;
+        return this.top.value;
     }
 }
