@@ -1,15 +1,13 @@
 package StacksAndQueues;
 
-import java.security.PublicKey;
-
 public class Queue {
 
-    public  Node Front;
-    public  Node Rear;
+    public  Node front;
+    public  Node rear;
 
     public  Queue(Node node){
-       this.Front = node;
-       this.Rear = node;
+       this.front = node;
+       this.rear = node;
 
     }
 
@@ -18,36 +16,36 @@ public class Queue {
     }
 
     //Enqueue to a queue
-    public void Enqueue(int value){
-        if(this.Rear==null){
+    public void enqueue(int value){
+        if(this.rear ==null){
             Node node = new Node(value);
-            this.Front = node;
-            this.Rear = node;
+            this.front = node;
+            this.rear = node;
         }
         else {
             Node node = new Node(value);
-            this.Rear.next = node;
-            this.Rear = node;
+            this.rear.next = node;
+            this.rear = node;
         }
     }
 
     //Dequeue a Node from the queue
-    public int Dequeue(){
-        if(this.Front==null){
+    public int dequeue(){
+        if(this.front ==null){
             throw new NullPointerException("This is an empty Queue");
         }
-        Node temp = this.Front;
-        this.Front = this.Front.next;
+        Node temp = this.front;
+        this.front = this.front.next;
         temp.next=null;
         return temp.value;
     }
 
 
     //peek
-    public int Peek(){
-        if(this.Front==null){
+    public int peek(){
+        if(this.front ==null){
             throw new NullPointerException("This is an empty Queue");
         }
-        return this.Front.value;
+        return this.front.value;
     }
 }
