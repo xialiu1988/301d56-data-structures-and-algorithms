@@ -9,3 +9,5 @@
 3. [Merge Linked List](codeChallenge/src/main/java/llMerge)
 
 4. [Stacks with Queues](codeChallenge/src/main/java/QueueWithStacks)
+
+5. [FIFO Animal Shelter](codeChallenge/src/main/java/fifoAnimalShelter)
