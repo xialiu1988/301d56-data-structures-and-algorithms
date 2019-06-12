@@ -11,3 +11,5 @@
 4. [Stacks with Queues](codeChallenge/src/main/java/QueueWithStacks)
 
 5. [FIFO Animal Shelter](codeChallenge/src/main/java/fifoAnimalShelter)
+
+6. [Multi Bracket Validation](codeChallenge/src/main/java/multiBracketValidation)
