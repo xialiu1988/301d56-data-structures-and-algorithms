@@ -13,3 +13,5 @@
 5. [FIFO Animal Shelter](codeChallenge/src/main/java/fifoAnimalShelter)
 
 6. [Multi Bracket Validation](codeChallenge/src/main/java/multiBracketValidation)
+
+7. [Fizz Buzz tree](codeChallenge/src/main/java/fizzBuzzTree)
