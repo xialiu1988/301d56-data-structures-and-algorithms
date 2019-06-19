@@ -29,6 +29,13 @@ public class App {
             System.out.println(a);
         }
 
+        System.out.println("+++++++Breadth First++++++++");
+
+        List<Node> list4 = ((BinaryTree) tr).breadthTraverse((BinaryTree)tr);
+
+        for(Node n : list4){
+            System.out.println(n.getValue());
+        }
 
     }
 }
