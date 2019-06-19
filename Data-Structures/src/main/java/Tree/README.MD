@@ -18,6 +18,8 @@ For BinaryTree Part Create a Node class that has properties for the value stored
 For BinarySearch Part, it defines a method named add that accepts a value, and adds a new node with that value in the correct location in the binary search tree. Define a method named contains that accepts a value, and returns a boolean indicating whether or not the value is in the tree at least once.
 
 
+Breadth-first-traversal:   traverse the tree each level and print out the each level's value
+
 ## Approach & Efficiency
 
 Big O
@@ -34,9 +36,15 @@ T<-O(logn)
 
 S<-O(h)
 
+Breadth-first-traversal: T<-O(n) S<-O(W)
 
 ### Api
 
 In the BinarySearchTree class
 
 addRecursive method should be privte and so is containsVal method.
+
+
+### whiteboard image for breadth-first method
+
+![breadthfirst](../../../Assets/breadth.jpeg)
