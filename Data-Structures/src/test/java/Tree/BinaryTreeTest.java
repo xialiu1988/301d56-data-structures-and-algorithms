@@ -2,6 +2,7 @@ package Tree;
 
 import org.junit.Test;
 
+import java.security.PublicKey;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -43,6 +44,15 @@ public class BinaryTreeTest extends Tree {
     }
 
 
+
+
+    //empty tree
+    @Test
+    public void empty(){
+        Tree tr = new BinaryTree();
+        List<Node> list = ((BinaryTree) tr).breadthTraverse((BinaryTree) tr);
+        assertTrue("empty list",list.size()==0);
+    }
 
 
 

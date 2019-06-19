@@ -33,6 +33,7 @@ public class BinaryTree extends Tree {
 
     public List<Node> breadthTraverse(BinaryTree tree ) {
         List<Node> list = new ArrayList<>();
+        if(tree.root==null)return list;
         LinkedList<Node> q = new LinkedList<>();
         q.add(tree.root);
         while (q.size() != 0) {
