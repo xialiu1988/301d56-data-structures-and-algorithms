@@ -42,9 +42,7 @@ public class BinaryTreeTest extends Tree {
         assertTrue("the third should be right child",list.get(3).getValue()==20);
         assertTrue("the third should be right child",list.get(4).getValue()==2);
     }
-
-
-
+    
 
     //empty tree
     @Test
