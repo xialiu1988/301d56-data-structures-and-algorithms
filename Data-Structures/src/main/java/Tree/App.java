@@ -37,5 +37,11 @@ public class App {
             System.out.println(n.getValue());
         }
 
+        System.out.println("+++++++Max value++++++++");
+
+     int a = ((BinaryTree) tr).findmaximumvalue(((BinaryTree) tr).getRoot());
+     System.out.println(a);
+
+
     }
 }

@@ -53,6 +53,24 @@ public class BinaryTree extends Tree {
 
     }
 
+  //find_maximum_binary_tree
+
+    public int findmaximumvalue(Node node){
+        int cur = -9999;
+        if (node ==null)return cur;
+        cur=node.getValue();
+
+
+          cur=findmaximumvalue(node.getLeftChild())>cur?findmaximumvalue(node.getLeftChild()):cur;
+
+          cur = findmaximumvalue(node.getRightChild())>cur?findmaximumvalue(node.getRightChild()):cur;
+
+          return cur;
+    }
+
+
+
+
 
 
 }
