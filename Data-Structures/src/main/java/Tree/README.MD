@@ -38,6 +38,8 @@ S<-O(h)
 
 Breadth-first-traversal: T<-O(n) S<-O(W)
 
+Find Max Value In BinaryTree: T<-O(n), S<-O(n)
+
 ### Api
 
 In the BinarySearchTree class
@@ -48,3 +50,6 @@ addRecursive method should be privte and so is containsVal method.
 ### whiteboard image for breadth-first method
 
 ![breadthfirst](../../../Assets/breadth.jpeg)
+
+
+![maxvalue](../../../Assets/9713.jpeg)
