@@ -180,7 +180,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561050916257" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561051059461" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="Tree.Tree" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -314,12 +314,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreeTest_inOrder - 2019.06.17 at 10h 12m 17s.xml">
-      <configuration name="TreeTest.inOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTreeTest_add - 2019.06.17 at 10h 25m 27s.xml">
-      <configuration name="BinarySearchTreeTest.add" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchTreeTest_add - 2019.06.17 at 10h 26m 13s.xml">
       <configuration name="BinarySearchTreeTest.add" configurationId="JUnit" />
     </history-entry>
@@ -343,6 +337,12 @@
     </history-entry>
     <history-entry file="BinaryTreeTest_emptyTree - 2019.06.20 at 10h 10m 54s.xml">
       <configuration name="BinaryTreeTest.emptyTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeTest_testNormalBT - 2019.06.20 at 10h 12m 22s.xml">
+      <configuration name="BinaryTreeTest.testNormalBT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeTest_testNormalBT - 2019.06.20 at 10h 13m 06s.xml">
+      <configuration name="BinaryTreeTest.testNormalBT" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">

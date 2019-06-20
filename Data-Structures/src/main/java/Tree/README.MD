@@ -49,7 +49,8 @@ addRecursive method should be privte and so is containsVal method.
 
 ### whiteboard image for breadth-first method
 
+## breadth-first
 ![breadthfirst](../../../Assets/breadth.jpeg)
 
-
+## max value in Binary Tree
 ![maxvalue](../../../Assets/9713.jpeg)
