@@ -53,5 +53,28 @@ public class BinaryTreeTest extends Tree {
     }
 
 
+    //find max value in BT
+
+    @Test
+    public void emptyTree(){
+        Tree tr = new BinaryTree();
+        int a = ((BinaryTree) tr).findmaximumvalue(((BinaryTree) tr).getRoot());
+        assertTrue("empty tree",a==-9999);
+    }
+
+
+    //find max value in normal BT
+    @Test
+            public void testNormalBT() {
+        Tree tr = new BinaryTree();
+        tr.setRoot(new Node(4));
+        tr.getRoot().setLeftChild(new Node(50));
+        tr.getRoot().setRightChild(new Node(13));
+        tr.getRoot().getLeftChild().setLeftChild(new Node(20));
+        tr.getRoot().getLeftChild().setRightChild(new Node(2));
+        int a = ((BinaryTree) tr).findmaximumvalue(((BinaryTree) tr).getRoot());
+
+        assertTrue("%0 is the max number",a==50);
+    }
 
 }
