@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e034ff2-e34c-4f0e-be51-ed393728341c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tree/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tree/BinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/README.MD" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -29,11 +28,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tree/BinaryTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+            <state relative-caret-position="386">
+              <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tree/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="443">
+                <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -42,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Tree/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="41" column="77" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="77" />
+              <caret line="41" column="77" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,10 +93,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Tree/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tree/BinarySearchTreeTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/Tree/README.MD" />
         <option value="$PROJECT_DIR$/src/main/java/Tree/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tree/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tree/BinaryTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tree/README.MD" />
       </list>
     </option>
   </component>
@@ -169,7 +180,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561050785750" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561050916257" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="Tree.Tree" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -336,7 +347,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="55" width="1440" height="732" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26466382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -347,7 +357,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.046875" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1984375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -457,16 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tree/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="495">
-            <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tree/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -504,7 +504,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Tree/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="41" column="77" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="77" />
+          <caret line="41" column="77" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -513,8 +513,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tree/BinaryTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        <state relative-caret-position="386">
+          <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tree/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="443">
+            <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
