@@ -15,3 +15,5 @@
 6. [Multi Bracket Validation](codeChallenge/src/main/java/multiBracketValidation)
 
 7. [Fizz Buzz tree](codeChallenge/src/main/java/fizzBuzzTree)
+
+8. [Insertion Sort](codeChallenge/src/main/java/insertionSort)
