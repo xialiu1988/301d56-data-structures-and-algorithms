@@ -17,7 +17,7 @@ Compare the values next to each other and sort them and move on to the next valu
 
 ![whiteboard](../../../../../Assets/is.jpg)
 
-
+(reference from Liz)
 
 ## Algorithm
 
