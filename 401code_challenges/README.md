@@ -17,3 +17,5 @@
 7. [Fizz Buzz tree](codeChallenge/src/main/java/fizzBuzzTree)
 
 8. [Insertion Sort](codeChallenge/src/main/java/insertionSort)
+
+9. [Merge Sort](codeChallenge/src/main/java/mergeSort)
