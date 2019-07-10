@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0383d7a9-b552-49b5-87e7-23bc651457e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Structures/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Structures/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/401code_challenges/codeChallenge/src/main/java/repeatedwords/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/401code_challenges/codeChallenge/src/main/java/repeatedwords/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +12,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="95">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data-Structures/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="525">
                 <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/401code_challenges/codeChallenge/src/main/java/repeatedwords/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="270">
+                <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
               </first_editor>
               <second_editor />
             </state>
@@ -65,6 +76,7 @@
         <option value="$PROJECT_DIR$/Data-Structures/src/main/java/Data/Structures/LinkedList/README.md" />
         <option value="$PROJECT_DIR$/401code_challenges/README.md" />
         <option value="$PROJECT_DIR$/Data-Structures/README.md" />
+        <option value="$PROJECT_DIR$/401code_challenges/codeChallenge/src/main/java/repeatedwords/README.md" />
       </list>
     </option>
   </component>
@@ -135,7 +147,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,6 +158,52 @@
               <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="Assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="codeChallenge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="codeChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="codeChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="codeChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="301d56-data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="401code_challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="codeChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="repeatedwords" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="301d56-data-structures-and-algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -178,6 +235,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,7 +271,7 @@
     <frame x="34" y="25" width="1405" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2751284" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27879676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -248,6 +306,16 @@
     <entry file="file://$PROJECT_DIR$/401code_challenges/binarySearch/README.md" />
     <entry file="file://$PROJECT_DIR$/401code_challenges/binarySearch/src/test/java/binarySearch/LibraryTest.java" />
     <entry file="file://$PROJECT_DIR$/401code_challenges/binarySearch/src/main/java/binarySearch/Library.java" />
+    <entry file="file://$PROJECT_DIR$/Data-Structures/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="525">
+            <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Data-Structures/src/main/java/Data/Structures/LinkedList/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -268,11 +336,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Structures/README.md">
+    <entry file="file://$PROJECT_DIR$/401code_challenges/codeChallenge/src/main/java/repeatedwords/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="525">
-            <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           </first_editor>
           <second_editor />
         </state>
