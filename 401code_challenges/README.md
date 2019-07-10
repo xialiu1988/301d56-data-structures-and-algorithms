@@ -21,3 +21,5 @@
 9. [Merge Sort](codeChallenge/src/main/java/mergeSort)
 
 10. [Quick Sort](codeChallenge/src/main/java/quickSort)
+
+11. [Repeated word](codeChallenge/src/main/java/repeatedwords)
