@@ -16,4 +16,4 @@ Create a hashset, for loop go throught the string array, if hashset already has 
 
 ## whiteboard
 
-![reapeatedword](../../../../../Assets/dd.JPG)
+![reapeatedword](../../../../../Assets/dd.jpg)
