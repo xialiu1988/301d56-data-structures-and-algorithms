@@ -23,3 +23,5 @@
 10. [Quick Sort](codeChallenge/src/main/java/quickSort)
 
 11. [Repeated word](codeChallenge/src/main/java/repeatedwords)
+
+12.[TreeIntersection](codeChallenge/src/main/java/treeIntersection)
