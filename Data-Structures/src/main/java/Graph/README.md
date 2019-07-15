@@ -60,3 +60,5 @@ Space: O(n), assume the graph will have some numbers of nodes
 Time: O(n), worst case will go through every node in the graph
 
 Image for BFSTraversal
+
+![bfs](../../../Assets/ff.jpeg)
