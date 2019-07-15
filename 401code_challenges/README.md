@@ -25,3 +25,5 @@
 11. [Repeated word](codeChallenge/src/main/java/repeatedwords)
 
 12.[TreeIntersection](codeChallenge/src/main/java/treeIntersection)
+
+12.[leftjoin](codeChallenge/src/main/java/leftJoin)
