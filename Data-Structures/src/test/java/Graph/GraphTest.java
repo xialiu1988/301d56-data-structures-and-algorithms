@@ -80,18 +80,18 @@ public class GraphTest extends Tree {
 
     }
 
-    @Test
-    public void bFSTraverse() {
-        Graph g = new Graph();
-        Vertex v1 = g.addNode("a");
-        Vertex v2 = g.addNode("b");
-        Vertex v3 = g.addNode("c");
-        g.addEdge(v1, v2, 10);
-        g.addEdge(v1, v3, 12);
-        List<Vertex> list = g.bFSTraverse();
-        assertEquals(3, list.size());
-        assertEquals("a", list.get(0).data);
-        assertEquals("b", list.get(1).data);
-        assertEquals("c", list.get(2).data);
-    }
+//    @Test
+//    public void bFSTraverse() {
+//        Graph g = new Graph();
+//        Vertex v1 = g.addNode("a");
+//        Vertex v2 = g.addNode("b");
+//        Vertex v3 = g.addNode("c");
+//        g.addEdge(v1, v2, 10);
+//        g.addEdge(v1, v3, 12);
+//        List<Vertex> list = g.bFSTraverse();
+//        assertEquals(3, list.size());
+//        assertEquals("a", list.get(0).data);
+//        assertEquals("b", list.get(1).data);
+//        assertEquals("c", list.get(2).data);
+//    }
 }
