@@ -141,7 +141,6 @@ public class Graph {
     }
 
 
-
     // breadth-first traversal
     public List<Vertex> bFSTraverse()
     {
@@ -154,21 +153,23 @@ public class Graph {
     {//create a list to insotre the vertices
         List<Vertex> list = new ArrayList<>();
         //create a queue
-        Queue<Vertex> queue = new LinkedList<>();
+        LinkedList<Vertex> queue = new LinkedList<>();
         list.add(v);
         v.visited = true;
-        queue.offer(v);
-        while (queue!=null)
+        queue.add(v);
+        while (queue.size()>0)
         {
-            Vertex w = ((LinkedList<Vertex>) queue).pollFirst();
+            Vertex w =   queue.removeFirst();
+            System.out.println(queue.size());
             System.out.println(w.data);
-            while (w.firstEdge != null)
-            {  Node node = w.firstEdge;
+            Node node = w.firstEdge;
+            while (node!= null)
+            {
                 if (!node.v.visited)
                 {
                     list.add(node.v);
                     node.v.visited = true;//means it is already visited
-                    queue.offer(node.v);//put the vertex in the queue
+                    queue.add(node.v);//put the vertex in the queue
                 }
                 node = node.next;//go to next node
             }
@@ -185,7 +186,8 @@ public class Graph {
         Vertex v3 = g.addNode("c");
         g.addEdge(v1, v2, 10);
         g.addEdge(v1, v3, 12);
+        System.out.println("errrrrr");
         List<Vertex> list = g.bFSTraverse();
-        System.out.println(list.size());
+        System.out.println("runninggggggg");
     }
 }
