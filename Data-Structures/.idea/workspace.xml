@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e034ff2-e34c-4f0e-be51-ed393728341c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/Vertex.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -17,74 +21,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Graph/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="555">
-                <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Hashtable/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-150" />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Tree/README.MD">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="525">
-                <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="38" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Graph/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Graph/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="294">
+              <caret line="187" column="30" lean-forward="true" selection-start-line="187" selection-start-column="30" selection-end-line="187" selection-end-column="30" />
+              <folding>
+                <element signature="e#2058#2059#0" expanded="true" />
+                <element signature="e#2089#2090#0" expanded="true" />
+                <element signature="e#3605#3606#0" expanded="true" />
+                <element signature="e#3642#3643#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Graph/Vertex.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Graph/GraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="312">
+              <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -94,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -123,13 +78,17 @@
         <option value="$PROJECT_DIR$/src/test/java/Hashtable/HashtableTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/Graph/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/Graph/Vertex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Graph/Node.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Graph/GraphTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Graph/Graph.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="71" />
-    <option name="y" value="88" />
-    <option name="width" value="1537" />
+    <option name="x" value="42" />
+    <option name="y" value="63" />
+    <option name="width" value="1440" />
     <option name="height" value="732" />
   </component>
   <component name="ProjectView">
@@ -198,13 +157,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563219804411" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563296469340" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="Tree.Tree" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Graph" />
       <recent name="Hashtable" />
       <recent name="Tree" />
     </key>
@@ -231,81 +191,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HashtableTest">
-    <configuration name="HashtableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data-Structures.test" />
+  <component name="RunManager" selected="Application.Graph">
+    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.Graph" />
+      <module name="Data-Structures.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hashtable.*" />
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Hashtable" />
-      <option name="MAIN_CLASS_NAME" value="Hashtable.HashtableTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashtableTest.cabgetVal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GraphTest.bFSTraverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hashtable.*" />
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Hashtable" />
-      <option name="MAIN_CLASS_NAME" value="Hashtable.HashtableTest" />
-      <option name="METHOD_NAME" value="cabgetVal" />
+      <option name="PACKAGE_NAME" value="Graph" />
+      <option name="MAIN_CLASS_NAME" value="Graph.GraphTest" />
+      <option name="METHOD_NAME" value="bFSTraverse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashtableTest.cantestnullvalue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GraphTest.getNeighbors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hashtable.*" />
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Hashtable" />
-      <option name="MAIN_CLASS_NAME" value="Hashtable.HashtableTest" />
-      <option name="METHOD_NAME" value="cantestnullvalue" />
+      <option name="PACKAGE_NAME" value="Graph" />
+      <option name="MAIN_CLASS_NAME" value="Graph.GraphTest" />
+      <option name="METHOD_NAME" value="getNeighbors" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashtableTest.hash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GraphTest.getNeighborswithweghts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hashtable.*" />
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Hashtable" />
-      <option name="MAIN_CLASS_NAME" value="Hashtable.HashtableTest" />
-      <option name="METHOD_NAME" value="hash" />
+      <option name="PACKAGE_NAME" value="Graph" />
+      <option name="MAIN_CLASS_NAME" value="Graph.GraphTest" />
+      <option name="METHOD_NAME" value="getNeighborswithweghts" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashtableTest.retrieveVal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GraphTest.nullgraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hashtable.*" />
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Hashtable" />
-      <option name="MAIN_CLASS_NAME" value="Hashtable.HashtableTest" />
-      <option name="METHOD_NAME" value="retrieveVal" />
+      <option name="PACKAGE_NAME" value="Graph" />
+      <option name="MAIN_CLASS_NAME" value="Graph.GraphTest" />
+      <option name="METHOD_NAME" value="nullgraph" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -313,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HashtableTest" />
-        <item itemvalue="JUnit.HashtableTest.hash" />
-        <item itemvalue="JUnit.HashtableTest.cantestnullvalue" />
-        <item itemvalue="JUnit.HashtableTest.retrieveVal" />
-        <item itemvalue="JUnit.HashtableTest.cabgetVal" />
+        <item itemvalue="Application.Graph" />
+        <item itemvalue="JUnit.GraphTest.bFSTraverse" />
+        <item itemvalue="JUnit.GraphTest.nullgraph" />
+        <item itemvalue="JUnit.GraphTest.getNeighborswithweghts" />
+        <item itemvalue="JUnit.GraphTest.getNeighbors" />
       </list>
     </recent_temporary>
   </component>
@@ -335,42 +293,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HashtableTest_cabgetVal - 2019.07.09 at 00h 55m 14s.xml">
-      <configuration name="HashtableTest.cabgetVal" configurationId="JUnit" />
+    <history-entry file="GraphTest_getNodes - 2019.07.16 at 09h 45m 12s.xml">
+      <configuration name="GraphTest.getNodes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_retrieveVal - 2019.07.09 at 00h 55m 48s.xml">
-      <configuration name="HashtableTest.retrieveVal" configurationId="JUnit" />
+    <history-entry file="GraphTest_getNeighbors - 2019.07.16 at 09h 45m 49s.xml">
+      <configuration name="GraphTest.getNeighbors" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_retrieveVal - 2019.07.09 at 00h 55m 59s.xml">
-      <configuration name="HashtableTest.retrieveVal" configurationId="JUnit" />
+    <history-entry file="GraphTest_getNeighborswithweghts - 2019.07.16 at 09h 48m 10s.xml">
+      <configuration name="GraphTest.getNeighborswithweghts" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_retrieveVal - 2019.07.09 at 00h 56m 09s.xml">
-      <configuration name="HashtableTest.retrieveVal" configurationId="JUnit" />
+    <history-entry file="GraphTest_bFSTraverse - 2019.07.16 at 09h 49m 39s.xml">
+      <configuration name="GraphTest.bFSTraverse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest - 2019.07.09 at 00h 57m 19s.xml">
-      <configuration name="HashtableTest" configurationId="JUnit" />
+    <history-entry file="GraphTest_nullgraph - 2019.07.16 at 09h 51m 53s.xml">
+      <configuration name="GraphTest.nullgraph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_cantestnullvalue - 2019.07.09 at 00h 57m 31s.xml">
-      <configuration name="HashtableTest.cantestnullvalue" configurationId="JUnit" />
+    <history-entry file="GraphTest_bFSTraverse - 2019.07.16 at 09h 53m 16s.xml">
+      <configuration name="GraphTest.bFSTraverse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest - 2019.07.09 at 00h 57m 35s.xml">
-      <configuration name="HashtableTest" configurationId="JUnit" />
+    <history-entry file="GraphTest_bFSTraverse - 2019.07.16 at 09h 53m 33s.xml">
+      <configuration name="GraphTest.bFSTraverse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_hash - 2019.07.09 at 00h 58m 24s.xml">
-      <configuration name="HashtableTest.hash" configurationId="JUnit" />
+    <history-entry file="GraphTest_bFSTraverse - 2019.07.16 at 09h 53m 36s.xml">
+      <configuration name="GraphTest.bFSTraverse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest_hash - 2019.07.09 at 00h 58m 33s.xml">
-      <configuration name="HashtableTest.hash" configurationId="JUnit" />
+    <history-entry file="GraphTest_bFSTraverse - 2019.07.16 at 09h 53m 45s.xml">
+      <configuration name="GraphTest.bFSTraverse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashtableTest - 2019.07.09 at 00h 58m 39s.xml">
-      <configuration name="HashtableTest" configurationId="JUnit" />
+    <history-entry file="GraphTest_bFSTraverse - 2019.07.16 at 09h 55m 04s.xml">
+      <configuration name="GraphTest.bFSTraverse" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="89" width="1537" height="732" extended-state="1" />
+    <frame x="42" y="63" width="1440" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15852843" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1602289" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -379,7 +337,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.240625" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -567,24 +525,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Graph/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Graph/Vertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-150" />
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -594,14 +539,6 @@
           <first_editor relative-caret-position="225">
             <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StacksAndQueues/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-150" />
           <second_editor />
         </state>
       </provider>
@@ -619,10 +556,61 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Graph/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="555">
-            <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+          <first_editor relative-caret-position="525">
+            <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Graph/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Graph/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Graph/GraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="187" column="30" lean-forward="true" selection-start-line="187" selection-start-column="30" selection-end-line="187" selection-end-column="30" />
+          <folding>
+            <element signature="e#2058#2059#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#3605#3606#0" expanded="true" />
+            <element signature="e#3642#3643#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
