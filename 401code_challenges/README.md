@@ -26,4 +26,6 @@
 
 12.[TreeIntersection](codeChallenge/src/main/java/treeIntersection)
 
-12.[leftjoin](codeChallenge/src/main/java/leftJoin)
+13.[leftjoin](codeChallenge/src/main/java/leftJoin)
+
+14.[getEdges](codeChallenge/src/main/java/getEdges)
