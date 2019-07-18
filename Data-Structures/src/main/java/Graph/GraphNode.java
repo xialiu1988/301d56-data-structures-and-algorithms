@@ -3,12 +3,12 @@ package Graph;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Node {
+public class GraphNode {
     public Vertex v;
-    public Node next;
+    public GraphNode next;
     public int weight ;
-   public  Node(){}
-    public Node(Vertex v,int weight)
+   public  GraphNode(){}
+    public GraphNode(Vertex v,int weight)
     {
        this.v = v;
         this.weight = weight;
@@ -20,7 +20,7 @@ public class Node {
         this.v = v;
     }
 
-    public void setNext(Node next) {
+    public void setNext(GraphNode next) {
         this.next = next;
     }
 
