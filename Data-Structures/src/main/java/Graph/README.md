@@ -81,3 +81,6 @@ Time: O(n), worst case will go through every node in the graph
 Image for BFSTraversal
 
 ![bfs](../../../Assets/ff.jpeg)
+
+
+![dfs](../../../Assets/DFS.jpeg)

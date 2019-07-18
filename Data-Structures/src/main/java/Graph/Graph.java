@@ -181,7 +181,7 @@ public class Graph {
 
 
     //depth-first
-    public static List<String> dFS(Vertex v,List<String> s)
+    public List<String> dFS(Vertex v,List<String> s)
     {
         v.visited = true;
         s.add(v.data);
