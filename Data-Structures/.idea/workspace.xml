@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Graph/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/GraphNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Graph/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Graph/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Graph/Vertex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Graph/GraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Graph/GraphTest.java" afterDir="false" />
     </list>
@@ -43,11 +44,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Graph/GraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+            <state relative-caret-position="472">
+              <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Graph/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="405">
+                <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -85,11 +98,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Hashtable/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/Hashtable/HashtableTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/Graph/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/Graph/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/Graph/Vertex.java" />
         <option value="$PROJECT_DIR$/src/main/java/Graph/Graph.java" />
         <option value="$PROJECT_DIR$/src/test/java/Graph/GraphTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Graph/README.md" />
       </list>
     </option>
   </component>
@@ -167,7 +180,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563475224875" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563475253658" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="Tree.Tree" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -302,15 +315,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GraphTest_getNeighborswithweghts - 2019.07.16 at 09h 48m 10s.xml">
-      <configuration name="GraphTest.getNeighborswithweghts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GraphTest_bFSTraverse - 2019.07.16 at 09h 49m 39s.xml">
-      <configuration name="GraphTest.bFSTraverse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GraphTest_nullgraph - 2019.07.16 at 09h 51m 53s.xml">
-      <configuration name="GraphTest.nullgraph" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GraphTest_bFSTraverse - 2019.07.16 at 09h 53m 16s.xml">
       <configuration name="GraphTest.bFSTraverse" configurationId="JUnit" />
     </history-entry>
@@ -332,6 +336,15 @@
     <history-entry file="GraphTest - 2019.07.18 at 11h 33m 18s.xml">
       <configuration name="GraphTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GraphTest_dfsTraverse - 2019.07.18 at 11h 39m 05s.xml">
+      <configuration name="GraphTest.dfsTraverse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_dfsTraverse - 2019.07.18 at 11h 39m 39s.xml">
+      <configuration name="GraphTest.dfsTraverse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_dfsTraverse - 2019.07.18 at 11h 39m 54s.xml">
+      <configuration name="GraphTest.dfsTraverse" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,7 +356,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="193" y="97" width="1440" height="732" extended-state="0" />
+    <frame x="306" y="45" width="1440" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
@@ -355,7 +368,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0640625" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.046875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -564,16 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Graph/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="525">
-            <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -610,8 +613,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Graph/GraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+        <state relative-caret-position="472">
+          <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Graph/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="405">
+            <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
