@@ -52,6 +52,25 @@ size(): this will return the list's size which is list.Count;
 
 BFSTraversal(): using Queue to store the vertices, if not visisted enqueue that vertex,if already visited, add the vertex to the list and return the list in the end
 
+Depth First Traversal
+Imaging graph like a tree, take in one Vertex, and bring all the nodes in the graph.
+
+Challenge
+Create a function that accepts an adjacency list as a graph, and conducts a depth first traversal.
+
+Without utilizing any of the built-in methods available to your language,
+
+return a collection of nodes in their pre-order depth-first traversal order.
+
+Approach & Efficiency
+Approach: Take in the first Vertex in the graph, and set it visited proptery as True, then outprint its data(value), then get its firstEdge(the node connect to it directly)
+
+node and check if the node is null, and if the vertex connext to it has been visted or not, if already visited, call DFS function else just
+
+move on to next node and till the end
+
+Effiency: T->O(n) you have to go through every node in the graph S->O(H) i am doing recursion so it will be height of call stack
+
 ### Efficiency:
 Big O
 

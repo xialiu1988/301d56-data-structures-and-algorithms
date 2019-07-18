@@ -2,7 +2,7 @@ package Graph;
 
 public class Vertex {
     public String data ;
-    public Node firstEdge;
+    public GraphNode firstEdge;
     public boolean visited ;
     public Vertex(String val)
     {
@@ -14,7 +14,7 @@ public class Vertex {
         this.data = data;
     }
 
-    public void setFirstEdge(Node firstEdge) {
+    public void setFirstEdge(GraphNode firstEdge) {
         this.firstEdge = firstEdge;
     }
 

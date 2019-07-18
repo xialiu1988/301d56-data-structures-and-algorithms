@@ -3,9 +3,11 @@ package Graph;
 import Tree.Tree;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import static Graph.Graph.dFS;
 import static org.junit.Assert.*;
 
 public class GraphTest extends Tree {
@@ -94,4 +96,24 @@ public class GraphTest extends Tree {
         assertEquals("b", list.get(1).data);
         assertEquals("c", list.get(2).data);
     }
+
+
+    @Test
+    public void dfsTraverse()
+    {
+        Graph g = new Graph();
+        Vertex v1 = g.addNode("a");
+        Vertex v2 = g.addNode("b");
+        Vertex v3 = g.addNode("c");
+        g.addEdge(v1, v2, 3);
+        g.addEdge(v2, v3, 3);
+        g.addEdge(v1, v3, 3);
+        List<String> s = new ArrayList<>();
+        List<String> list = dFS(g.Vertices.get(0), s);
+        assertEquals(3, list.size());
+       assertTrue(list.contains("a"));
+        assertTrue(list.contains("b"));
+        assertTrue(list.contains("c"));
+    }
+
 }

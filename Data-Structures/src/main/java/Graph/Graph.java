@@ -44,12 +44,12 @@ public class Graph {
     {
         if (from.firstEdge == null)
         {
-            from.firstEdge = new Node(to,weight);
+            from.firstEdge = new GraphNode(to,weight);
         }
         else
         {
-            Node node = from.firstEdge;
-            Node temp;
+            GraphNode node = from.firstEdge;
+            GraphNode temp;
             do
             {
                 if (node.v.data.equals(to.data))
@@ -60,7 +60,7 @@ public class Graph {
                 temp = node;
                 node = node.next;
             } while (node != null);
-            temp.next = new Node(to,weight);//add to the last position of the list
+            temp.next = new GraphNode(to,weight);//add to the last position of the list
 
         }
     }
@@ -78,7 +78,7 @@ public class Graph {
         for(int i = 0; i < list.size(); i++)
         {
             v = list.get(i);
-            Node n = v.firstEdge;
+            GraphNode n = v.firstEdge;
            System.out.println("vertex is"+ v.data + "its list :");
             while (n != null)
             {
@@ -103,7 +103,7 @@ public class Graph {
         int index = Vertices.indexOf(n);
         if (Vertices.get(index).firstEdge != null)
         {
-            Node temp = Vertices.get(index).firstEdge;
+            GraphNode temp = Vertices.get(index).firstEdge;
             while (temp != null)
             {
                 neighbors.add(temp.v);
@@ -121,7 +121,7 @@ public class Graph {
         int index = Vertices.indexOf(v);
         if(Vertices.get(index).firstEdge!=null)
         {
-            Node temp = Vertices.get(index).firstEdge;
+            GraphNode temp = Vertices.get(index).firstEdge;
             while (temp != null)
             {
                 neighbors.put(temp.v.data, temp.weight);
@@ -162,7 +162,7 @@ public class Graph {
             Vertex w =   queue.removeFirst();
             System.out.println(queue.size());
             System.out.println(w.data);
-            Node node = w.firstEdge;
+            GraphNode node = w.firstEdge;
             while (node!= null)
             {
                 if (!node.v.visited)
@@ -176,6 +176,29 @@ public class Graph {
         }
         return list;
     }
+
+
+
+
+    //depth-first
+    public static List<String> dFS(Vertex v,List<String> s)
+    {
+        v.visited = true;
+        s.add(v.data);
+        GraphNode n = v.firstEdge;
+        while (n != null)
+        {
+            if (n.v.visited == false)
+            {
+                dFS(n.v,s);
+            }
+            n = n.next;
+        }
+        return s;
+    }
+
+
+
 
 
 
